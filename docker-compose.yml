@@ -10,3 +10,12 @@ services:
       - "4022:22"
     volumes:
       - ./app:/data
+    networks:
+      - ho_apps
+      - ho_datastore
+
+networks:
+  ho_apps:
+    external: true
+  ho_datastore:
+    external: true
