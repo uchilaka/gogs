@@ -1,0 +1,21 @@
+{
+  "name": "@larcity/gogs",
+  "version": "1.0.0",
+  "description": "A hosted git repository",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Needs tests\"; exit 1;",
+    "start": "docker-compose up -d",
+    "destroy": "docker-compose down"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uchilaka/gogs.git"
+  },
+  "author": "Uche Chilaka <uche@lar.city>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uchilaka/gogs/issues"
+  },
+  "homepage": "https://github.com/uchilaka/gogs#readme"
+}
