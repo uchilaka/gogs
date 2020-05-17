@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  gogs:
+    image: gogs/gogs
+    container_name: gogs.ho
+    restart: unless-stopped    
+    ports:
+      - "4082:3000"
+      - "4022:22"
+    volumes:
+      - ./app:/data
