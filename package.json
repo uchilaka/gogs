@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Needs tests\"; exit 1;",
     "start": "docker-compose up -d",
-    "destroy": "docker-compose down"
+    "destroy": "docker-compose down",
+    "status": "docker-compose -f ./docker-compose.yml ps"
   },
   "repository": {
     "type": "git",
